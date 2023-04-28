@@ -64,7 +64,7 @@ namespace SwitchCarrierServer
 #endif
                 Thread.Sleep(1000);
 #if DEBUG
-                Console.WriteLine("checkRouterTable Methode Executed. Code2");
+                Console.WriteLine("checkRouterTable Methode Executed. Code2 ");
 #endif
             }
         }
