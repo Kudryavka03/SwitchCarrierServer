@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+q5mY+e5tsdBohDO6iuvyLs6+3EbC5xcU+t0bUkNpxMsQLukD1IdlnXYaNdTI1Ni1XhYxO2onnrB2k2/uzHohA==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\SwitchCarrierServer\\SwitchCarrierServer\\SwitchCarrierServer\\SwitchCarrierServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\ssh.net\\2020.0.2\\ssh.net.2020.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
