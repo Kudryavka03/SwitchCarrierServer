@@ -14,7 +14,7 @@
  ```echo '252    campus_net'>>/etc/iproute2/rt_tables```
 
  3.确定好初始化静态路由的命令，加入路由器自启动
- 
+
  ```
  ip route add 192.168.255.0/24 via 0.0.0.0 dev br-lan table campus_net
  ip route add default via 192.168.72.1 dev br-hlu_net table campus_net
@@ -32,4 +32,4 @@
  /api/switch/ipaddr     切换ipaddr的运营商
  ```
 
- ##目前这些指令倒是满足我的日常使用了，如需其他api可以自己改src。
+ 目前这些指令倒是满足我的日常使用了，如需其他api可以自己改src。
