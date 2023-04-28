@@ -10,9 +10,11 @@
  ```
 
  2.这里以252和欲创建一个名为“campus_net”的路由表为例，执行
+
  ```echo '252    campus_net'>>/etc/iproute2/rt_tables```
 
  3.确定好初始化静态路由的命令，加入路由器自启动
+ 
  ```
  ip route add 192.168.255.0/24 via 0.0.0.0 dev br-lan table campus_net
  ip route add default via 192.168.72.1 dev br-hlu_net table campus_net
